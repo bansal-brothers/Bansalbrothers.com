@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 520">
+<defs>
+ <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#273216"/><stop offset="1" stop-color="#a6c83b" stop-opacity=".45"/></linearGradient>
+ <filter id="s"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-opacity=".45"/></filter>
+</defs>
+<rect width="300" height="520" rx="52" fill="#0a1018"/>
+<rect x="14" y="14" width="272" height="492" rx="44" fill="url(#g)" stroke="#ffffff" stroke-opacity=".16" stroke-width="3" filter="url(#s)"/>
+<rect x="34" y="42" width="232" height="390" rx="30" fill="#09121d" stroke="#ffffff" stroke-opacity=".12"/>
+<rect x="88" y="55" width="124" height="22" rx="11" fill="#02070c"/>
+<circle cx="150" cy="66" r="5" fill="#6f7e8d"/>
+<g transform="translate(52 90)">
+ <rect width="66" height="66" rx="18" fill="#05080c" stroke="#ffffff" stroke-opacity=".18"/>
+ <circle cx="22" cy="22" r="10" fill="#777"/><circle cx="44" cy="22" r="10" fill="#777"/>
+ <circle cx="22" cy="44" r="10" fill="#777"/>
+</g>
+<text x="150" y="365" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="25" font-weight="800">realme</text>
+<text x="150" y="397" text-anchor="middle" fill="#b8c6d4" font-family="Arial,sans-serif" font-size="13">Mobile Phone</text>
+<rect x="122" y="464" width="56" height="5" rx="2.5" fill="#fff" opacity=".5"/>
+</svg>
