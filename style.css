@@ -68,3 +68,36 @@
 
 .reveal-on-scroll{opacity:0;transform:translateY(22px);transition:opacity .75s ease,transform .75s cubic-bezier(.2,.7,.2,1)}
 .reveal-on-scroll.is-visible{opacity:1;transform:none}
+
+
+/* Premium mobile-store finish */
+:root{--store-bg:#050b14;--store-panel:#0a1422;--store-panel-2:#0d1b2b;--store-blue:#18a8ff;--store-blue-2:#0879d9;--store-text:#f4f8fc;--store-muted:#9aabba;--store-line:#1b344d}
+body{background:var(--store-bg);color:var(--store-text)}
+.nav{background:rgba(5,11,20,.94);border-bottom:1px solid var(--store-line)}
+.nav nav a:hover{color:var(--store-blue)}
+.nav-cta,.btn{background:linear-gradient(135deg,var(--store-blue),var(--store-blue-2));border-color:var(--store-blue);color:#fff}
+.btn-outline{background:rgba(5,11,20,.42);border-color:#50708c}
+.hero-overlay{background:linear-gradient(90deg,rgba(3,9,17,.96) 0%,rgba(3,9,17,.76) 42%,rgba(3,9,17,.30) 74%,rgba(3,9,17,.72) 100%)}
+.welcome-pill{border-color:#ffffff24;background:#ffffff0a}.welcome-pill span{background:var(--store-blue);box-shadow:0 0 16px var(--store-blue)}
+.hero h1 span,h2 span,.eyebrow,.hero-meta span:first-child,.contact-number,.availability-note span{color:var(--store-blue)}
+.trust{background:var(--store-line);border-color:var(--store-line)}
+.trust div{background:var(--store-panel)}
+.section,.contact{background:var(--store-bg)}
+.phone-section,.happy-section{background:linear-gradient(180deg,#07111e,#091827)}
+.card,.phone-card,.review,.happy-card{background:linear-gradient(145deg,var(--store-panel-2),var(--store-panel));border-color:var(--store-line)}
+.card:hover,.phone-card:hover{border-color:var(--store-blue);box-shadow:0 18px 45px rgba(0,130,220,.12)}
+.phone-photo{background:radial-gradient(circle at 50% 35%,rgba(24,168,255,.14),transparent 58%),#071321}
+.phone-info>span{color:var(--store-blue)}
+.phone-info a:hover{color:var(--store-blue)}
+.hero-badge{background:rgba(7,19,33,.9);border-color:#ffffff1c}.hero-badge b{color:var(--store-blue)}
+.happy-card figcaption{background:linear-gradient(90deg,rgba(3,10,18,.94),rgba(3,10,18,.68))}
+.hours{border-color:var(--store-line)}
+footer{background:#030811}
+.whatsapp-float{position:fixed;right:22px;bottom:22px;width:58px;height:58px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;z-index:100;box-shadow:0 10px 28px rgba(0,0,0,.38),0 0 0 5px rgba(37,211,102,.10);transition:transform .22s ease,box-shadow .22s ease;text-decoration:none;animation:waPulse 2.8s ease-in-out infinite}
+.whatsapp-float:hover{transform:translateY(-4px) scale(1.05);box-shadow:0 14px 32px rgba(0,0,0,.45),0 0 0 7px rgba(37,211,102,.12)}
+.whatsapp-float svg{width:31px;height:31px;fill:#fff}
+@keyframes waPulse{0%,100%{box-shadow:0 10px 28px rgba(0,0,0,.38),0 0 0 5px rgba(37,211,102,.10)}50%{box-shadow:0 12px 30px rgba(0,0,0,.42),0 0 0 9px rgba(37,211,102,.05)}}
+@media(max-width:560px){.whatsapp-float{right:16px;bottom:16px;width:54px;height:54px}.whatsapp-float svg{width:28px;height:28px}}
+
+/* Floating WhatsApp contact button */
+.whatsapp-float{position:fixed;right:22px;bottom:22px;z-index:9999;display:flex;align-items:center;gap:9px;padding:13px 18px;border-radius:999px;background:#25D366;color:#fff;text-decoration:none;font-weight:800;font-size:14px;box-shadow:0 10px 30px rgba(0,0,0,.35);transition:transform .2s ease,box-shadow .2s ease}.whatsapp-float:hover{transform:translateY(-3px);box-shadow:0 14px 35px rgba(0,0,0,.45)}.wa-icon{display:grid;place-items:center;width:25px;height:25px;border:2px solid #fff;border-radius:50%;font-size:13px}@media(max-width:600px){.whatsapp-float{right:15px;bottom:15px;padding:13px;width:52px;height:52px;justify-content:center}.wa-text{display:none}}
