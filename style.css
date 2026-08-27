@@ -98,3 +98,75 @@ footer{background:#030811}
 .whatsapp-float svg{width:31px;height:31px;fill:#fff}
 @keyframes waPulse{0%,100%{box-shadow:0 10px 28px rgba(0,0,0,.38),0 0 0 5px rgba(37,211,102,.10)}50%{box-shadow:0 12px 30px rgba(0,0,0,.42),0 0 0 9px rgba(37,211,102,.05)}}
 @media(max-width:560px){.whatsapp-float{right:16px;bottom:16px;width:54px;height:54px}.whatsapp-float svg{width:28px;height:28px}}
+
+
+/* Clean professional phone-store theme */
+:root{
+  --navy:#0b1f33;
+  --navy-2:#102b45;
+  --blue:#1677c8;
+  --blue-dark:#0e5ea2;
+  --ink:#142333;
+  --muted:#687789;
+  --line:#e5eaf0;
+  --soft:#f6f8fb;
+  --white:#ffffff;
+}
+body{background:#fff;color:var(--ink);font-family:Inter,Arial,sans-serif}
+.nav{height:74px;background:rgba(255,255,255,.97);border-bottom:1px solid var(--line);box-shadow:0 4px 18px rgba(16,39,62,.06);backdrop-filter:blur(12px)}
+.logo{color:var(--navy)}
+.logo span{color:var(--navy)}
+.nav nav a{color:#405166;font-weight:700}
+.nav nav a:hover{color:var(--blue)}
+.nav-cta{background:var(--navy);border:1px solid var(--navy);color:#fff}
+.nav-cta:hover{background:var(--blue)}
+.hero-overlay{background:linear-gradient(90deg,rgba(4,17,29,.93) 0%,rgba(4,17,29,.72) 46%,rgba(4,17,29,.28) 100%)}
+.hero h1{letter-spacing:-1.6px}
+.hero h1 span,h2 span,.eyebrow,.hero-meta span:first-child,.contact-number{color:#4fb1f0}
+.welcome-pill{background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.20)}
+.welcome-pill span{background:#4fb1f0;box-shadow:0 0 12px rgba(79,177,240,.55)}
+.btn{background:var(--blue);border-color:var(--blue);color:#fff;box-shadow:0 8px 20px rgba(22,119,200,.16)}
+.btn:hover{background:var(--blue-dark);border-color:var(--blue-dark)}
+.btn-outline{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.55);color:#fff}
+.btn-outline:hover{background:#fff;color:var(--navy);border-color:#fff}
+.trust{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.trust div{background:#fff;border-right:1px solid var(--line)}
+.trust div:last-child{border-right:0}
+.trust b{color:var(--navy)}
+.trust small{color:var(--muted)}
+.section{background:#fff}
+.section:nth-of-type(even){background:var(--soft)}
+.section-heading{margin-bottom:42px}
+.section h2,.contact h2{color:var(--navy);letter-spacing:-.7px}
+.section-sub{color:var(--muted);max-width:540px}
+.card,.phone-card,.review,.happy-card{background:#fff;border:1px solid var(--line);box-shadow:0 8px 28px rgba(17,40,64,.06)}
+.card{border-radius:16px}
+.card:hover,.phone-card:hover{border-color:#c6dff2;box-shadow:0 16px 36px rgba(17,40,64,.10);transform:translateY(-4px)}
+.card i{color:var(--blue);background:#edf6fd;border-radius:10px;padding:8px;font-style:normal}
+.card h3,.phone-info h3,.review p{color:var(--navy)}
+.card p,.phone-info p{color:var(--muted)}
+.phone-section,.happy-section{background:var(--soft)!important;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.phone-card{overflow:hidden}
+.phone-photo{background:#f7f9fb;border-bottom:1px solid var(--line)}
+.phone-card img.brand-phone{background:#f7f9fb}
+.phone-info{padding:21px}
+.phone-info>span{color:var(--blue)}
+.phone-info a{color:var(--blue)}
+.phone-info a:hover{color:var(--blue-dark)}
+.availability-note{color:#8290a0}
+.availability-note span{color:var(--blue)}
+.happy-card{background:#fff}
+.happy-card figcaption{background:linear-gradient(90deg,rgba(7,22,37,.93),rgba(7,22,37,.70))}
+.review-grid{margin-top:30px}
+.review div{color:#f0a928}
+.review small{color:#8290a0}
+.contact{background:var(--navy);border-top:0}
+.contact h2{color:#fff}
+.contact p{color:#b8c6d4}
+.hours{border-color:rgba(255,255,255,.14)}
+.hours h3{color:#fff}
+footer{background:#071522;color:#91a2b3}
+.whatsapp-float{position:fixed;right:22px;bottom:22px;width:60px;height:60px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;z-index:100;border:4px solid #fff;box-shadow:0 8px 24px rgba(11,31,51,.24);transition:transform .2s ease,box-shadow .2s ease;text-decoration:none;animation:none}
+.whatsapp-float svg{width:39px;height:39px;display:block}
+.whatsapp-float:hover{transform:translateY(-3px) scale(1.04);box-shadow:0 12px 28px rgba(11,31,51,.30)}
+@media(max-width:560px){.whatsapp-float{right:16px;bottom:16px;width:56px;height:56px}.whatsapp-float svg{width:36px;height:36px}}
