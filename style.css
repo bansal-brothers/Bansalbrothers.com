@@ -187,3 +187,16 @@ footer{padding:24px 6%!important;text-align:center}
 /* Final requested icon/image fixes only */
 .logo-mark{color:#d8b65f!important;background:#0c1626!important;border:1px solid #d8b65f!important;overflow:hidden}.logo-mark span{color:#d8b65f!important;font-family:Georgia,'Times New Roman',serif;font-weight:800;line-height:1}
 .iphone-photo{display:flex!important;align-items:center!important;justify-content:center!important;background:linear-gradient(145deg,#f7f7f8,#eef0f3)!important}.iphone-visual{width:min(230px,80%);height:290px;display:block;filter:drop-shadow(0 18px 20px rgba(16,24,40,.20))}.call-float svg{width:23px;height:23px;fill:currentColor;display:block}.whatsapp-float svg{width:30px;height:30px;fill:currentColor;display:block}
+
+/* FINAL FIX: local iPhone photo + visible BB mark + floating icons */
+.logo-mark span{display:block!important;color:#d8b65f!important;opacity:1!important;visibility:visible!important;text-shadow:0 1px 2px rgba(0,0,0,.25)!important}
+.iphone-photo{display:flex!important;align-items:center!important;justify-content:center!important;overflow:hidden!important}
+.iphone-photo .iphone-real{display:block!important;width:100%!important;height:100%!important;max-width:390px!important;object-fit:contain!important;background:transparent!important;border-radius:0!important;filter:drop-shadow(0 16px 20px rgba(16,24,40,.16))!important}
+.call-float svg,.whatsapp-float svg{display:block!important;visibility:visible!important;opacity:1!important}
+
+/* FINAL FIX — only requested items */
+.logo-mark span{display:block!important;color:#d8b65f!important;opacity:1!important;visibility:visible!important;text-shadow:0 1px 2px rgba(0,0,0,.25)!important}
+.iphone-photo{display:flex!important;align-items:center!important;justify-content:center!important;overflow:hidden!important}
+.iphone-photo .iphone-real{display:block;width:100%;height:100%;max-width:390px;object-fit:contain;background:transparent;border-radius:0;filter:drop-shadow(0 16px 20px rgba(16,24,40,.16))}
+.iphone-photo .iphone-fallback{display:none;width:min(230px,80%);height:290px;filter:drop-shadow(0 18px 20px rgba(16,24,40,.20))}
+.call-float svg,.whatsapp-float svg{display:block!important;visibility:visible!important;opacity:1!important}
