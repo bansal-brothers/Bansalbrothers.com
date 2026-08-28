@@ -168,16 +168,18 @@ footer{padding:24px 6%!important;text-align:center}
 @media(max-width:900px){.store-strip{grid-template-columns:1fr}.contact{grid-template-columns:1fr;gap:28px}.review-grid{grid-template-columns:1fr}.nav nav{display:none;position:absolute;left:16px;right:16px;top:72px;background:#fff;border:1px solid var(--line);border-radius:18px;padding:10px;box-shadow:0 16px 35px rgba(16,24,40,.12);z-index:1000}.nav nav.open{display:flex;flex-direction:column}.nav nav a{padding:13px 14px}.menu{display:block}.nav-cta{margin-left:auto;margin-right:8px}}
 @media(max-width:600px){.ticker{height:38px;font-size:12px}.hero{min-height:650px!important}.hero h1{font-size:48px!important}.hero-content{padding:100px 24px 60px!important}.hero-meta{flex-wrap:wrap}.phone-grid{grid-template-columns:1fr!important}.phone-photo{height:320px!important}.section{padding-left:20px!important;padding-right:20px!important}.contact{padding:65px 20px!important}.store-info-card{padding:19px}.nav{padding:12px 18px!important}.logo span:last-child{font-size:15px!important;letter-spacing:1px!important}}
 
-/* CLEAN FRONT-PAGE MOBILE FIX */
-@media (max-width: 600px){
-  .hero-content{width:100%;max-width:100%;box-sizing:border-box;overflow:hidden}
-  .welcome-pill{max-width:100%;width:max-content;box-sizing:border-box;white-space:normal;font-size:11px;letter-spacing:1px;padding:10px 14px}
-  .hero h1{font-family:Inter,Arial,sans-serif!important;font-size:clamp(38px,11vw,54px)!important;line-height:1.02!important;letter-spacing:-1px!important;overflow-wrap:anywhere}
-  .hero h1 span{font-size:.72em!important;white-space:normal}
-  .hero .lead{font-family:Inter,Arial,sans-serif!important;font-size:15px!important;line-height:1.5!important;max-width:100%;overflow-wrap:anywhere}
-  .hero-copy{font-size:14px!important;line-height:1.6!important;max-width:100%!important;overflow-wrap:anywhere}
-  .actions{width:100%;box-sizing:border-box;flex-wrap:wrap}
-  .actions .btn{max-width:100%;box-sizing:border-box;white-space:normal;text-align:center}
+/* FINAL MOBILE HERO FIX */
+.hero-content{min-width:0;max-width:100%;}
+.welcome-pill{display:inline-flex;max-width:100%;box-sizing:border-box;white-space:normal;overflow-wrap:anywhere;align-items:center;}
+.hero h1{max-width:100%;overflow-wrap:break-word;word-break:normal;letter-spacing:-.045em;}
+.hero h1 span{letter-spacing:-.035em;}
+@media(max-width:600px){
+  .hero-content{width:100%;max-width:100%;box-sizing:border-box;padding:92px 20px 55px!important;}
+  .welcome-pill{font-size:10px!important;letter-spacing:1.4px!important;padding:10px 13px!important;border-radius:999px!important;margin-bottom:20px!important;}
+  .hero h1{font-family:Inter,Arial,Helvetica,sans-serif!important;font-size:clamp(34px,10.8vw,46px)!important;line-height:.98!important;letter-spacing:-.055em!important;white-space:normal!important;}
+  .hero h1 span{font-size:.70em!important;letter-spacing:-.04em!important;}
+  .hero .lead{font-family:Inter,Arial,Helvetica,sans-serif!important;font-size:14px!important;line-height:1.45!important;max-width:100%!important;}
+  .hero-copy{font-size:13px!important;line-height:1.55!important;max-width:100%!important;}
+  .actions{max-width:100%;}
+  .actions .btn{max-width:100%;box-sizing:border-box;}
 }
-.welcome-pill{font-family:Inter,Arial,sans-serif!important;font-weight:700!important;letter-spacing:1.5px!important;border:1px solid rgba(255,255,255,.28)!important;background:rgba(255,255,255,.10)!important;backdrop-filter:blur(10px)!important;box-shadow:0 8px 28px rgba(0,0,0,.12)!important}
-.hero h1{font-family:Inter,Arial,sans-serif!important;font-weight:800!important;letter-spacing:-2px!important}
