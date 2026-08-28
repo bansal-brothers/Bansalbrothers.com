@@ -3,29 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Bansal Brothers — smartphones, accessories, mobile repairs and finance options in Yamuna Paar, Mathura.">
-  <title>Bansal Brothers | Smartphones, Accessories & Repairs</title>
+  <meta name="description" content="Bansal Brothers — smartphones, accessories, finance and professional mobile services in Mathura.">
+  <title>Bansal Brothers | Smartphones, Finance & Services</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="nav">
-    <a class="logo" href="#home"><span class="logo-mark">BB</span><span>BANSAL BROTHERS</span></a>
+    <a class="logo" href="#home" aria-label="Bansal Brothers home">
+      <span class="logo-mark" aria-hidden="true">BB</span>
+      <span>BANSAL BROTHERS</span>
+    </a>
+    <button class="menu" aria-label="Open menu" aria-expanded="false">☰</button>
     <nav>
       <a href="#phones">Mobiles</a>
       <a href="#services">Services</a>
+      <a href="#finance">Finance</a>
       <a href="#reviews">Reviews</a>
       <a href="#contact">Contact</a>
     </nav>
     <a class="nav-cta" href="#phones">Explore Store <span>↗</span></a>
-    <button class="menu" aria-label="Open menu" aria-expanded="false">☰</button>
   </header>
-
-  <div class="ticker" aria-label="Store offers">
-    <div class="ticker-track">
-      <span>📱 Latest Smartphones</span><b>•</b><span>💳 0% Interest Finance*</span><b>•</b><span>🛡️ Genuine Products</span><b>•</b><span>🔧 Professional Repairs</span><b>•</b><span>📍 Visit Bansal Brothers, Mathura</span><b>•</b>
-      <span>📱 Latest Smartphones</span><b>•</b><span>💳 0% Interest Finance*</span><b>•</b><span>🛡️ Genuine Products</span><b>•</b><span>🔧 Professional Repairs</span><b>•</b><span>📍 Visit Bansal Brothers, Mathura</span>
-    </div>
-  </div>
 
   <main>
     <section id="home" class="hero">
@@ -33,95 +30,134 @@
       <div class="hero-overlay"></div>
       <div class="hero-content">
         <div class="welcome-pill"><span></span> WELCOME TO BANSAL BROTHERS</div>
-        <h1>SMARTPHONES<br><span>ACCESSORIES & MORE</span></h1>
+        <h1>Smartphones<br><span>Accessories & More</span></h1>
         <p class="lead">Mobile Phones • Accessories • Repairs • Finance</p>
-        <p class="hero-copy">Your local destination for smartphones, genuine accessories and dependable mobile services — all under one roof.</p>
+        <p class="hero-copy">Your local destination for genuine smartphones, useful accessories, professional repairs and easy finance options — all under one roof.</p>
         <div class="actions">
           <a class="btn" href="#phones">Explore Mobiles <span>↓</span></a>
           <a class="btn btn-outline" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Bansal+Brothers+Yamuna+Paar+Mathura">📍 Google Directions</a>
         </div>
-        <div class="hero-meta"><span>★ 4.8 Rated</span><span>•</span><span>Local Store</span><span>•</span><span>Mobiles & Repairs</span></div>
+        <div class="hero-meta"><span>★ 4.8 Rated</span><span>•</span><span>Local Store</span><span>•</span><span>Mobiles & Services</span></div>
       </div>
-      <div class="hero-badge"><b>01</b><span>Trusted<br>mobile store</span></div>
+      <div class="hero-badge"><b>BB</b><span>Trusted<br>local store</span></div>
     </section>
 
-    <section class="store-strip section">
-      <div class="store-info-card">
-        <div class="store-info-icon">📍</div>
-        <div><small>VISIT OUR STORE</small><h3>Bansal Brothers</h3><p>Yamuna Paar, near Honda Agency, Laxmi Nagar, Mathura, Uttar Pradesh 281204</p></div>
+    <!-- Premium finance feature, intentionally below the hero instead of at the top. -->
+    <section id="finance" class="finance-feature">
+      <div class="finance-inner">
+        <div class="finance-icon">%</div>
+        <div class="finance-copy">
+          <p class="eyebrow">EASY FINANCE OPTIONS</p>
+          <h2>Get Your Next Smartphone With <span>0% Interest*</span></h2>
+          <p>Finance options available on eligible smartphones, subject to partner terms, eligibility and approval.</p>
+        </div>
+        <a class="finance-btn" href="https://wa.me/919410617885?text=Hi%20Bansal%20Brothers%2C%20I%20want%20to%20know%20about%200%25%20interest%20finance%20options." target="_blank" rel="noopener">Ask on WhatsApp →</a>
       </div>
-      <div class="store-info-card">
-        <div class="store-info-icon">🕘</div>
-        <div><small>OPEN EVERY DAY</small><h3>10:00 AM – 9:00 PM</h3><p>Walk in, call or WhatsApp us for phone availability and service details.</p></div>
-      </div>
-      <div class="store-info-card finance-card">
-        <div class="store-info-icon">💳</div>
-        <div><small>FINANCE AVAILABLE</small><h3>0% Interest Options*</h3><p>Easy finance options on eligible smartphones, subject to partner terms and approval.</p></div>
+    </section>
+
+    <!-- Moving retail banner: separate section, not stuck above the hero. -->
+    <section class="ticker-section" aria-label="Store highlights">
+      <div class="ticker-track">
+        <span>📱 Latest Smartphones</span><b>•</b><span>💳 0% Interest Finance*</span><b>•</b><span>🛡️ Genuine Products</span><b>•</b><span>🔧 Professional Repairs</span><b>•</b><span>📍 Visit Bansal Brothers, Mathura</span><b>•</b>
+        <span>📱 Latest Smartphones</span><b>•</b><span>💳 0% Interest Finance*</span><b>•</b><span>🛡️ Genuine Products</span><b>•</b><span>🔧 Professional Repairs</span><b>•</b><span>📍 Visit Bansal Brothers, Mathura</span><b>•</b>
       </div>
     </section>
 
     <section id="phones" class="section phone-section">
-      <div class="section-heading phone-heading"><div><p class="eyebrow">MOBILE COLLECTION</p><h2>Popular <span>Smartphones</span></h2></div><p class="section-sub">Explore popular models from leading brands. Ask us for current price, colour and stock availability.</p></div>
-      <div class="phone-grid">
-        <article class="phone-card"><div class="phone-photo"><img class="brand-phone" src="https://www.cht.com.tw/ipm/prod/000100006437/image/51373_05032514_050325146102_20250122151345.jpg" alt="Samsung Galaxy S25 smartphone"></div><div class="phone-info"><span>Samsung</span><h3>Galaxy S25</h3><p>Premium Galaxy smartphone</p><a href="#contact">Enquire →</a></div></article>
-        <article class="phone-card"><div class="phone-photo"><img class="brand-phone" src="https://shoplineimg.com/5b6971ecf9129500172ad5b4/6937cf4cc794663cef9b73ec/3860x.jpg" alt="vivo V series smartphone"></div><div class="phone-info"><span>vivo</span><h3>V Series</h3><p>Camera-focused smartphones</p><a href="#contact">Enquire →</a></div></article>
-        <article class="phone-card"><div class="phone-photo"><img class="brand-phone" src="https://image.made-in-china.com/202f0j00QEiMHmtdaauK/T-l-phone-mobile-moderne-l-gant-et-chic-pour-un-usage-quotidien.webp" alt="OnePlus smartphone"></div><div class="phone-info"><span>OnePlus</span><h3>OnePlus</h3><p>Performance-focused phones</p><a href="#contact">Enquire →</a></div></article>
-        <article class="phone-card"><div class="phone-photo"><img class="brand-phone" src="https://smartkoshk.com/cdn/shop/files/s-l1600_8_56815d1b-5b72-4dda-8730-2a1d5a4036e0.webp?v=1769251139&width=533" alt="realme smartphone"></div><div class="phone-info"><span>realme</span><h3>realme</h3><p>Feature-packed smartphones</p><a href="#contact">Enquire →</a></div></article>
-        <article class="phone-card"><div class="phone-photo"><img class="brand-phone" src="https://i02.appmifile.com/851_item_th/23/03/2026/41dbf706ba438f6548bd2a5b29270106.png?q=85&thumb=1&w=400" alt="Redmi smartphone"></div><div class="phone-info"><span>Redmi</span><h3>Redmi</h3><p>Popular everyday smartphones</p><a href="#contact">Enquire →</a></div></article>
-        <article class="phone-card"><div class="phone-photo"><img class="brand-phone" src="https://ardes.bg/uploads/original/apple-iphone-16-pro-578258.jpg" alt="Apple iPhone 16 Pro smartphone"></div><div class="phone-info"><span>Apple</span><h3>iPhone 16 Pro</h3><p>Premium Apple smartphone</p><a href="#contact">Enquire →</a></div></article>
+      <div class="section-heading phone-heading">
+        <div><p class="eyebrow">MOBILE COLLECTION</p><h2>Popular <span>Smartphones</span></h2></div>
+        <p class="section-sub">Explore popular smartphone categories and models. Availability, colours and prices can change, so WhatsApp us for the current stock.</p>
       </div>
-      <div class="availability-note"><span>●</span> Product images show individual models for visual reference. Exact model, colour, price and stock may vary.</div>
+      <div class="phone-grid">
+        <article class="phone-card">
+          <div class="phone-photo"><img class="brand-phone" src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=900&q=85" alt="Samsung style smartphone product photo" loading="lazy"></div>
+          <div class="phone-info"><span>Samsung</span><h3>Galaxy Smartphones</h3><p>Popular Samsung models</p><a href="#contact">Check Availability →</a></div>
+        </article>
+        <article class="phone-card">
+          <div class="phone-photo"><img class="brand-phone" src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=900&q=85" alt="vivo style smartphone product photo" loading="lazy"></div>
+          <div class="phone-info"><span>vivo</span><h3>vivo Smartphones</h3><p>Latest and popular vivo models</p><a href="#contact">Check Availability →</a></div>
+        </article>
+        <article class="phone-card">
+          <div class="phone-photo"><img class="brand-phone" src="https://images.unsplash.com/photo-1556656793-08538906a9f8?auto=format&fit=crop&w=900&q=85" alt="OnePlus style smartphone product photo" loading="lazy"></div>
+          <div class="phone-info"><span>OnePlus</span><h3>OnePlus Phones</h3><p>Performance-focused smartphones</p><a href="#contact">Check Availability →</a></div>
+        </article>
+        <article class="phone-card">
+          <div class="phone-photo"><img class="brand-phone" src="https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&w=900&q=85" alt="realme style smartphone product photo" loading="lazy"></div>
+          <div class="phone-info"><span>realme</span><h3>realme Smartphones</h3><p>Value-packed everyday phones</p><a href="#contact">Check Availability →</a></div>
+        </article>
+        <article class="phone-card">
+          <div class="phone-photo"><img class="brand-phone" src="https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?auto=format&fit=crop&w=900&q=85" alt="Redmi style smartphone product photo" loading="lazy"></div>
+          <div class="phone-info"><span>Redmi</span><h3>Redmi Smartphones</h3><p>Popular everyday smartphones</p><a href="#contact">Check Availability →</a></div>
+        </article>
+        <article class="phone-card">
+          <div class="phone-photo"><img class="brand-phone" src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=900&q=85" alt="iPhone style smartphone product photo" loading="lazy"></div>
+          <div class="phone-info"><span>Apple</span><h3>iPhone</h3><p>Premium Apple smartphones</p><a href="#contact">Check Availability →</a></div>
+        </article>
+      </div>
+      <div class="availability-note"><span>●</span> Product images are representative. Exact model, colour, storage, price and stock should be confirmed with the store.</div>
     </section>
 
-    <section id="services" class="section">
-      <div class="section-heading"><div><p class="eyebrow">WHAT WE OFFER</p><h2>More Than <span>Repairs</span></h2></div><p class="section-sub">From buying a new smartphone to accessories, finance and repair support, Bansal Brothers handles your everyday mobile needs.</p></div>
+    <section id="services" class="section services-section">
+      <div class="section-heading"><div><p class="eyebrow">MORE THAN REPAIRS</p><h2>Everything Your <span>Phone Needs</span></h2></div><p class="section-sub">From buying a new smartphone to accessories, finance and dependable after-sales help.</p></div>
       <div class="grid">
-        <article class="card"><i>📱</i><h3>Smartphone Sales</h3><p>Popular models from leading brands with current availability on enquiry.</p></article>
-        <article class="card"><i>💳</i><h3>0% Interest Finance*</h3><p>Finance options on eligible smartphones, subject to approval and partner terms.</p></article>
-        <article class="card"><i>🎧</i><h3>Mobile Accessories</h3><p>Cases, chargers, cables, tempered glass, audio and everyday essentials.</p></article>
-        <article class="card"><i>🔧</i><h3>Screen Repair</h3><p>Screen diagnosis, repair and replacement for damaged displays.</p></article>
-        <article class="card"><i>🔋</i><h3>Battery Replacement</h3><p>Battery checks and replacement for common phone battery issues.</p></article>
-        <article class="card"><i>🔌</i><h3>Charging Port Repair</h3><p>Inspection and repair for charging and connection problems.</p></article>
-        <article class="card"><i>⏻</i><h3>Power Button Repair</h3><p>Repair for faulty, stuck or unresponsive power buttons.</p></article>
-        <article class="card"><i>⚙️</i><h3>Software Support</h3><p>Help with software issues, setup, lag and common phone problems.</p></article>
+        <article class="card"><i>📱</i><h3>Smartphone Sales</h3><p>Latest models from leading brands at competitive prices.</p></article>
+        <article class="card"><i>🎧</i><h3>Mobile Accessories</h3><p>Cases, chargers, tempered glass, cables and more.</p></article>
+        <article class="card"><i>💳</i><h3>0% Interest Finance*</h3><p>Easy finance options on eligible smartphones, subject to approval.</p></article>
+        <article class="card"><i>🛡️</i><h3>Genuine Products</h3><p>Original products with applicable manufacturer warranty.</p></article>
+        <article class="card"><i>🔧</i><h3>Screen Repair</h3><p>Diagnosis, repair and replacement for damaged displays.</p></article>
+        <article class="card"><i>🔋</i><h3>Battery Replacement</h3><p>Battery checks and replacement for compatible devices.</p></article>
+        <article class="card"><i>🔌</i><h3>Charging Port Repair</h3><p>Inspection and repair for common charging problems.</p></article>
+        <article class="card"><i>⚙️</i><h3>Software Support</h3><p>Help with common software, setup and performance issues.</p></article>
       </div>
     </section>
 
     <section id="reviews" class="section reviews">
-      <div class="section-heading"><div><p class="eyebrow">CUSTOMER FEEDBACK</p><h2>What Customers <span>Say</span></h2></div><p class="section-sub">Add verified customer reviews here as they come in. The layout is ready for names, locations and profile photos.</p></div>
+      <div class="section-heading"><div><p class="eyebrow">CUSTOMER FEEDBACK</p><h2>What Customers <span>Say</span></h2></div><p class="section-sub">Use verified customer reviews here when publishing the final site.</p></div>
       <div class="review-grid">
-        <div class="review"><div class="review-top"><div class="review-stars">★★★★★</div><div class="review-avatar"><span>R</span></div></div><p>“Good place to check phones and accessories. Staff explained the options clearly.”</p><div class="review-person"><strong>Rahul</strong><span>📍 Mathura</span></div></div>
-        <div class="review"><div class="review-top"><div class="review-stars">★★★★★</div><div class="review-avatar"><span>P</span></div></div><p>“Helpful service and a good range of mobile options. Finance availability was explained properly.”</p><div class="review-person"><strong>Priya</strong><span>📍 Vrindavan</span></div></div>
-        <div class="review"><div class="review-top"><div class="review-stars">★★★★★</div><div class="review-avatar"><span>A</span></div></div><p>“Convenient local store for smartphones, accessories and repair support.”</p><div class="review-person"><strong>Amit</strong><span>📍 Mathura</span></div></div>
+        <article class="review">
+          <div class="review-stars">★★★★★</div>
+          <div class="review-body"><p>“Good place to check the latest phones and compare options within budget.”</p></div>
+          <div class="review-person"><img src="https://i.pravatar.cc/96?img=12" alt="Customer avatar"><div><strong>Rahul S.</strong><span>📍 Mathura</span></div></div>
+        </article>
+        <article class="review">
+          <div class="review-stars">★★★★★</div>
+          <div class="review-body"><p>“Helpful service and a good range of accessories. The staff explained the options clearly.”</p></div>
+          <div class="review-person"><img src="https://i.pravatar.cc/96?img=47" alt="Customer avatar"><div><strong>Priya S.</strong><span>📍 Vrindavan</span></div></div>
+        </article>
+        <article class="review">
+          <div class="review-stars">★★★★★</div>
+          <div class="review-body"><p>“Convenient for phones, accessories and getting repair details in one place.”</p></div>
+          <div class="review-person"><img src="https://i.pravatar.cc/96?img=33" alt="Customer avatar"><div><strong>Amit K.</strong><span>📍 Mathura</span></div></div>
+        </article>
       </div>
-      <p class="review-note">*These cards are a design-ready review section. Replace the sample text/names with genuine customer reviews before publishing them as actual testimonials.</p>
+      <p class="review-note">Sample layout only — replace these with genuine Google/customer reviews and approved customer photos before publishing.</p>
     </section>
 
     <section id="contact" class="contact">
       <div class="contact-main">
         <p class="eyebrow">VISIT OR CONTACT US</p>
-        <h2>Bansal <span>Brothers</span></h2>
-        <p>Smartphones, accessories, finance and mobile repair support in Yamuna Paar, Mathura.</p>
+        <h2>Find <span>Bansal Brothers</span></h2>
+        <p>Yamuna Paar, near Honda Agency, Laxmi Nagar, Mathura, Uttar Pradesh 281204</p>
         <div class="contact-actions">
           <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Bansal+Brothers+Yamuna+Paar+Mathura">📍 Open Google Maps</a>
-          <a class="btn btn-outline" href="tel:+919410617885">📞 Call 9410617885</a>
-          <a class="btn whatsapp-btn" target="_blank" rel="noopener" href="https://wa.me/919410617885?text=Hi%20Bansal%20Brothers%2C%20I%20want%20to%20know%20about%20mobile%20phones%20and%20services.">💬 WhatsApp</a>
+          <a class="btn btn-outline" href="tel:+919410617885">📞 Call Now</a>
+          <a class="btn whatsapp-btn" href="https://wa.me/919410617885?text=Hi%20Bansal%20Brothers%2C%20I%20want%20to%20know%20about%20your%20phones%2C%20finance%20and%20services." target="_blank" rel="noopener">💬 WhatsApp</a>
         </div>
       </div>
       <div class="contact-card">
-        <div class="contact-row"><span>🏪</span><div><small>STORE</small><strong>Bansal Brothers</strong><p>Yamuna Paar, near Honda Agency, Laxmi Nagar, Mathura, Uttar Pradesh 281204</p></div></div>
-        <div class="contact-row"><span>🕘</span><div><small>HOURS</small><strong>Monday – Sunday</strong><p>10:00 AM – 9:00 PM</p></div></div>
-        <div class="contact-row"><span>📞</span><div><small>PHONE</small><strong>+91 94106 17885</strong><p>Call for current phone availability and details.</p></div></div>
+        <div class="contact-row"><span>📍</span><div><small>STORE</small><strong>Bansal Brothers</strong><p>Yamuna Paar, near Honda Agency, Laxmi Nagar, Mathura — 281204</p></div></div>
+        <div class="contact-row"><span>🕙</span><div><small>OPEN DAILY</small><strong>10:00 AM – 9:00 PM</strong><p>Walk in, call or WhatsApp us for current phone availability.</p></div></div>
+        <div class="contact-row"><span>📞</span><div><small>PHONE</small><strong>+91 94106 17885</strong><p>Call for phone, finance and service enquiries.</p></div></div>
       </div>
     </section>
   </main>
 
   <div class="floating-contact" aria-label="Quick contact">
-    <a class="call-float" href="tel:+919410617885" aria-label="Call Bansal Brothers" title="Call Bansal Brothers">☎</a>
-    <a class="whatsapp-float" href="https://wa.me/919410617885?text=Hi%20Bansal%20Brothers%2C%20I%20want%20to%20know%20more%20about%20your%20mobile%20phones%20and%20services." target="_blank" rel="noopener" aria-label="Chat on WhatsApp" title="WhatsApp">◔</a>
+    <a class="call-float" href="tel:+919410617885" aria-label="Call Bansal Brothers" title="Call Bansal Brothers"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79a15.46 15.46 0 0 0 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C10.61 21 3 13.39 3 4c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2Z"/></svg></a>
+    <a class="whatsapp-float" href="https://wa.me/919410617885?text=Hi%20Bansal%20Brothers%2C%20I%20want%20to%20know%20more%20about%20your%20mobile%20phones%20and%20services." target="_blank" rel="noopener" aria-label="Chat with Bansal Brothers on WhatsApp" title="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.52 3.48A11.82 11.82 0 0 0 12.09 0C5.55 0 .23 5.32.23 11.86c0 2.09.55 4.13 1.59 5.92L.13 24l6.37-1.67a11.82 11.82 0 0 0 5.59 1.42h.01c6.54 0 11.86-5.32 11.86-11.86 0-3.17-1.23-6.14-3.44-8.41ZM12.1 21.7h-.01a9.83 9.83 0 0 1-5.01-1.37l-.36-.21-3.78.99 1.01-3.68-.23-.38a9.82 9.82 0 1 1 8.38 4.65Zm5.4-7.37c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.49-.9-.8-1.5-1.78-1.68-2.08-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.21 5.08 4.5.71.31 1.27.49 1.7.63.72.23 1.37.2 1.88.12.58-.09 1.76-.72 2.01-1.41.25-.69.25-1.28.17-1.41-.07-.12-.27-.2-.57-.35Z"/></svg></a>
   </div>
 
-  <footer>© 2026 Bansal Brothers. All rights reserved. <span>• Smartphones • Finance • Accessories • Repairs</span></footer>
+  <footer>© 2026 Bansal Brothers. All rights reserved. <span>• Smartphones • Accessories • Finance • Repairs</span></footer>
   <script src="script.js"></script>
 </body>
 </html>
